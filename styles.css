@@ -1,0 +1,134 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+.nav-bar{
+    text-align: right;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav{
+    padding: 10px;
+    color: rgba(0, 0, 0, .87);
+    cursor: pointer;
+}
+
+.google{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.image{
+    width: 250px;
+    
+    
+}
+
+.input{
+    width: 35rem;
+    padding: 15px;
+    border-radius: 4rem;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+.input:hover{
+    border: #f8f9fa;
+    box-shadow: 2px 2px 2px 3px lightgray;
+}
+
+.input:focus{
+    border: #f8f9fa;
+    outline: #f8f9fa;
+    
+}
+
+
+.mic{
+color: gray;
+position: relative;
+right: 35px;
+top: 10px;
+}
+
+.search{
+    color: gray;
+    position: relative;
+    left: 35px;
+    top: 10px;
+}
+
+button{
+    background-color: #f8f9fa;
+     border: #f8f9fa;
+     outline: none;
+     padding: 10px;
+     border-radius: 4px;
+     cursor: pointer;
+
+}
+
+button:hover{
+    border: 1px solid lightgray;
+}
+
+.btn{
+    padding: 20px;
+}
+
+
+
+.links{
+    padding-bottom: 20px;
+}
+
+.links-2{
+    text-decoration: none;
+    color: #1a0dab;
+    padding: 5px;
+    
+}
+
+.links-2:hover{
+    text-decoration: underline;
+    color: #1a0dab;
+}
+
+.foot{
+    background-color: lightgrey;
+    color: grey;
+    padding: 20px;
+    margin-top: 90px;
+}
+
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.first{
+    padding: 20px;
+}
+
+.second{
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
